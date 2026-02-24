@@ -20,4 +20,4 @@ for node in nodes:
     if hostname.startswith("Srv") and ip.startswith(ip_part):
         count += 1
 
-        print("kopa:", count)
+        print(hostname, count)
